@@ -3,6 +3,14 @@
 <title>Quiz Yourself</title>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <body>
+<script type="text/javascript">
+function make_flashcard()
+{
+question=document.data.question.value;
+answer=document.data.answer.value;
+alert("The values were " + question + " and " + answer
+}
+</script>
 <h1 id="header">Quiz Yourself</h1>
 <div class="container">
 <div class="center">
@@ -10,9 +18,7 @@
 <div class="first">
 <li><a href="index.html">Home</a></li>
 </div>
-<div class="second">
 <li><a href="quizzes.html">Quizzes</a></li>
-</div>
 <div class="last">
 <li><a href="YourStuff.html">Your Stuff</a></li>
 </div>
@@ -20,5 +26,10 @@
 </div>
 </div>
 </body>
+<form name="data" action="#">
+Question: <input type="text" name=question /><br />
+Answer: <input type="text" name=answer /><br/>
+<input type="button" name="reset_form" value="Submit" onclick="make_flashcard();">
+</form>
 </head>
 </html>
