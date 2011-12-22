@@ -38,8 +38,12 @@ width:100px;
 color:#eee;
 text-align:center;
 border-left:1px dashed #f5f5f5;
-border-left:1px dashed #f5f5f5;
-border-right: 1px dashed #f5f5f5;
+border-right: 1px dashed #000;
+-moz-box-shadow: 3px 3px 3px #000;
+-webkit-box-shadow: 3px 3px 3px #000;
+box-shadow: 3px 3px 3px #000;
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#000000')";
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#000000');
 }
 .first li a
 {
@@ -92,9 +96,13 @@ padding-right:12px;
 padding-top: 0;
 margin-top: -100px;
 left:40%;
+-moz-box-shadow: 3px 3px 3px #000;
+-webkit-box-shadow: 3px 3px 3px #000;
+box-shadow: 3px 3px 3px #000;
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#000000')";
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#000000');
 }
 .about:hover
 {
 background-color: CC2211;
 }
-
